@@ -40,3 +40,11 @@ img {
   border-radius: 10px;
   border: 2px solid #d4af37;
 }
+
+
+body {
+  background:
+    linear-gradient(rgba(15,8,4,0.92), rgba(15,8,4,0.92)),
+    url("assets/bg.jpg");
+  background-size: cover;
+}
