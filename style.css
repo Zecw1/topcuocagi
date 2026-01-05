@@ -1,0 +1,7 @@
+.profile-img {
+  display: block;
+  max-width: 220px;
+  margin: 20px auto;
+  border: 4px solid #8b0000;
+  background: #111;
+}
