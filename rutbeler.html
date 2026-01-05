@@ -1,48 +1,170 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Topçu Ocağı Rütbeleri</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Topçu Ocağı Rütbeleri</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    background:
+        linear-gradient(rgba(15,8,4,0.9), rgba(15,8,4,0.9)),
+        url("https://i.imgur.com/6N7Z6YB.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f2e6c9;
+}
+
+header {
+    background: rgba(35,18,9,0.95);
+    padding: 20px;
+    border-bottom: 3px solid #bfa76a;
+}
+
+header h1 {
+    font-family: "Cinzel", serif;
+    margin: 0;
+    color: #e6c87a;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f2e6c9;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e6c87a;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 30px;
+}
+
+.rank {
+    background: rgba(30,15,8,0.85);
+    border: 1px solid #bfa76a;
+    padding: 18px 22px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+.rank h3 {
+    font-family: "Cinzel", serif;
+    color: #e6c87a;
+    margin: 0 0 8px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(30,15,8,0.9);
+    border-top: 2px solid #bfa76a;
+}
+</style>
 </head>
+
 <body>
 
 <header>
-  <h1>Topçu Ocağı Rütbeleri</h1>
-  <nav>
-    <a href="index.html">Ana Sayfa</a>
-  </nav>
+    <h1>Topçu Ocağı Rütbeleri</h1>
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+    </nav>
 </header>
 
-<main>
+<div class="container">
 
-<section class="card">
-  <h2>Rütbe Sıralaması</h2>
+<div class="rank">
+    <h3>Nevber Orta</h3>
+    <p>Topçu Ocağı’na yeni katılan askerlerin teşkil edildiği en alt birlik seviyesidir.</p>
+</div>
 
-  <ul class="rutbe-list">
-    <li>Nevber Orta</li>
-    <li>Cebehane Orta</li>
-    <li>Humbaracı Orta</li>
-    <li>Orta Çavuşu</li>
-    <li>Sancaktar</li>
-    <li>Mülâzım-ı Sani</li>
-    <li>Mülâzım-ı Evvel</li>
-    <li>Yüzbaşı</li>
-    <li>Kolağası</li>
-    <li>Binbaşı</li>
-    <li>Kaymakam</li>
-    <li>Miralay</li>
-    <li>Mirliva</li>
-    <li>Ferik</li>
-    <li><strong>Ağa (Topçu Ağası)</strong></li>
-  </ul>
+<div class="rank">
+    <h3>Cebehane Orta</h3>
+    <p>Silah, barut ve mühimmatın muhafaza ve düzeninden sorumlu birliktir.</p>
+</div>
 
-</section>
+<div class="rank">
+    <h3>Humbaracı Orta</h3>
+    <p>Humbara ve patlayıcı maddelerin hazırlanması ve kullanımıyla vazifelidir.</p>
+</div>
 
-</main>
+<div class="rank">
+    <h3>Orta Çavuşu</h3>
+    <p>Ortaların iç düzeni ve asker disiplininden sorumlu alt rütbeli kumandandır.</p>
+</div>
+
+<div class="rank">
+    <h3>Sancaktar</h3>
+    <p>Topçu Ocağı sancağını taşıyan, birlik maneviyatını temsil eden askerdir.</p>
+</div>
+
+<div class="rank">
+    <h3>Mülâzım-ı Sani</h3>
+    <p>Alt zabit kademesinde yer alır, eğitim ve tertip işlerinde vazife alır.</p>
+</div>
+
+<div class="rank">
+    <h3>Mülâzım-ı Evvel</h3>
+    <p>Topçu birliklerinin sevk ve idaresinde zabitlere yardımcı olur.</p>
+</div>
+
+<div class="rank">
+    <h3>Yüzbaşı</h3>
+    <p>Birliklerin doğrudan kumandasını üstlenen zabittir.</p>
+</div>
+
+<div class="rank">
+    <h3>Kolağası</h3>
+    <p>Birden fazla birliğin düzeninden ve savaş tertibinden mesuldür.</p>
+</div>
+
+<div class="rank">
+    <h3>Binbaşı</h3>
+    <p>Topçu taburlarının kumandasını üstlenir.</p>
+</div>
+
+<div class="rank">
+    <h3>Kaymakam</h3>
+    <p>Yüksek rütbeli kumandan olup büyük birlikleri sevk eder.</p>
+</div>
+
+<div class="rank">
+    <h3>Miralay</h3>
+    <p>Topçu alaylarının başında bulunan üst düzey kumandandır.</p>
+</div>
+
+<div class="rank">
+    <h3>Mirliva</h3>
+    <p>Ordu seviyesinde söz sahibi olan, harp stratejilerini tayin eden kumandandır.</p>
+</div>
+
+<div class="rank">
+    <h3>Ferik</h3>
+    <p>Topçu Ocağı’nın en yüksek kumanda rütbelerinden biri olup,
+    sefer ve harp düzenini tayin eder.</p>
+</div>
+
+<div class="rank">
+    <h3>Ağa</h3>
+    <p>Topçu Ocağı’nın en üst makamı olup, nizam, disiplin ve ilmin muhafazasından mesuldür.</p>
+</div>
+
+</div>
 
 <footer>
-  <p>© 2026 Devlet-i Aliyye-i Osmaniyye</p>
+    © 2026 Devlet-i Aliyye-i Osmaniyye
 </footer>
 
 </body>

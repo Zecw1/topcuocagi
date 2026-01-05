@@ -1,50 +1,155 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <meta charset="UTF-8">
-  <title>Topçu Ocağı</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Topçu Ocağı</title>
+
+<!-- Tarihsel font -->
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=EB+Garamond&display=swap" rel="stylesheet">
+
+<style>
+body {
+    margin: 0;
+    font-family: "EB Garamond", serif;
+    background:
+        linear-gradient(rgba(20,10,5,0.85), rgba(20,10,5,0.85)),
+        url("https://i.imgur.com/6N7Z6YB.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    color: #f2e6c9;
+}
+
+header {
+    background: rgba(40,20,10,0.9);
+    padding: 20px;
+    border-bottom: 3px solid #bfa76a;
+}
+
+header h1 {
+    font-family: "Cinzel", serif;
+    margin: 0;
+    color: #e6c87a;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: #f2e6c9;
+    text-decoration: none;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e6c87a;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.section {
+    background: rgba(30,15,8,0.85);
+    border: 1px solid #bfa76a;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+
+.section h2 {
+    font-family: "Cinzel", serif;
+    color: #e6c87a;
+}
+
+.ferik-box {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.ferik-box img {
+    width: 160px;
+    border: 3px solid #bfa76a;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(30,15,8,0.9);
+    border-top: 2px solid #bfa76a;
+}
+</style>
 </head>
+
 <body>
+
+<header>
+    <h1>Topçu Ocağı</h1>
+    <p>Barut, İlim ve İntizam</p>
+
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="rutbeler.html">Rütbeler</a>
+        <a href="#ferik">Ferik</a>
+        <a href="#discord">Discord</a>
+    </nav>
+</header>
 
 <div class="container">
 
-  <h1>Topçu Ocağı</h1>
-  <p><i>Barut, İlim ve İntizam</i></p>
-
-  <div class="nav">
-    <a href="#">Ana Sayfa</a> |
-    <a href="#">Rütbeler</a> |
-    <a href="#ferik">Ferik</a> |
-    <a href="https://discord.gg/xRjQp4whFC" target="_blank">Discord</a>
-  </div>
-
-  <h2>Topçu Ocağı Nedir?</h2>
-  <div class="card">
-    Topçu Ocağı, Devlet-i Aliyye-i Osmaniyye'nin harp meydanlarında
-    ateş gücünü temsil eden en mühim askerî sınıftır.
-  </div>
-
-  <h2 id="ferik">Ferik</h2>
-  <div class="card">
-    <img src="images/ferik.png" alt="Ferik exe32165" width="200">
-    <p><b>İsim:</b> exe32165</p>
-    <p><b>Discord:</b> alfa4209</p>
+<div class="section">
+    <h2>Topçu Ocağı Nedir?</h2>
     <p>
-      Ferik rütbesi, Topçu Ocağı’nda yüksek kumanda yetkisine sahiptir.
+        Topçu Ocağı, Devlet-i Aliyye-i Osmaniyye’nin harp meydanlarında ateş gücünü temsil eden
+        en mühim askerî sınıflarından biridir. Kale kuşatmaları, meydan muharebeleri ve
+        stratejik savunmalarda topçular ordunun kaderini tayin eden unsurlar olmuştur.
     </p>
-  </div>
+    <p>
+        Disiplin, ilim ve teknik bilgi Topçu Ocağı’nın temel direkleri olup, barutun
+        kudreti ilim ile birleştirilmiştir.
+    </p>
+</div>
 
-  <h2>Resmî Discord Sunucuları</h2>
-  <ul>
-    <li>🔵 <a href="https://discord.gg/xRjQp4whFC" target="_blank">Topçu Ocağı Discord</a></li>
-  </ul>
+<div class="section" id="ferik">
+    <h2>Ferik</h2>
 
-  <p style="margin-top:40px; font-size:14px;">
-    © 2026 Devlet-i Aliyye-i Osmaniyye
-  </p>
+    <div class="ferik-box">
+        <img src="ferik.png" alt="Ferik exe32165">
+        <div>
+            <p>
+                Ferik rütbesi, Topçu Ocağı’nda yüksek kumanda salahiyetine sahip olup,
+                sefer tertibi, birlik sevkiyatı ve stratejik harp düzeninin kurulmasında
+                doğrudan söz sahibidir.
+            </p>
+            <p>
+                Ferikler, hem askerî disiplinin muhafazası hem de ilim ve nizamın
+                nesilden nesile aktarılmasında mühim vazifeler icra eder.
+            </p>
+
+            <p><strong>İsim:</strong> exe32165</p>
+            <p><strong>Discord:</strong> alfa4209</p>
+        </div>
+    </div>
+</div>
+
+<div class="section" id="discord">
+    <h2>Resmî Discord Sunucuları</h2>
+    <ul>
+        <li>💣 <a href="https://discord.gg/xRjQp4whFC" target="_blank">Topçu Ocağı Discord</a></li>
+        <li>⚜️ <a href="https://discord.gg/Fbhz6Tr64M" target="_blank">Devlet-i Aliyye Discord</a></li>
+    </ul>
+</div>
 
 </div>
+
+<footer>
+    © 2026 Devlet-i Aliyye-i Osmaniyye
+</footer>
 
 </body>
 </html>
