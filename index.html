@@ -2,9 +2,10 @@
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Topçu Ocağı</title>
 
-<!-- Tarihsel yazı tipi -->
 <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&display=swap" rel="stylesheet">
 
 <style>
@@ -17,7 +18,7 @@
 
 body {
   background:
-    linear-gradient(rgba(15,8,4,0.92), rgba(15,8,4,0.92)),
+    linear-gradient(rgba(12,7,3,0.92), rgba(12,7,3,0.92)),
     url("assets/bg.jpg");
   background-size: cover;
   background-position: center;
@@ -25,7 +26,7 @@ body {
 }
 
 /* HEADER */
-.header {
+header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -41,7 +42,7 @@ body {
 }
 
 .logo-area img {
-  width: 50px;
+  width: 48px;
 }
 
 .logo-area h1 {
@@ -60,15 +61,14 @@ nav a:hover {
   color: #e6c87a;
 }
 
-/* ANA ALAN */
-.container {
+/* MAIN */
+main {
   max-width: 1000px;
   margin: auto;
   padding: 40px 20px;
 }
 
-/* KART */
-.card {
+.section {
   background: rgba(30,15,8,0.85);
   border: 1px solid #bfa76a;
   border-radius: 10px;
@@ -76,28 +76,28 @@ nav a:hover {
   margin-bottom: 35px;
 }
 
-/* FERİK */
-.ferik-box {
+.section h2 {
+  color: #e6c87a;
+  margin-bottom: 15px;
+}
+
+/* FERIK */
+.ferik {
   display: flex;
   gap: 25px;
   align-items: center;
 }
 
-.ferik-box img {
+.ferik img {
   width: 170px;
   border: 3px solid #bfa76a;
   border-radius: 8px;
 }
 
-.ferik-box h2 {
-  color: #e6c87a;
-  margin-bottom: 10px;
-}
-
 /* DISCORD */
-.discord-link {
+.discord a {
   display: block;
-  margin-top: 15px;
+  margin-top: 12px;
   padding: 12px;
   background: #2b160b;
   border: 1px solid #bfa76a;
@@ -107,7 +107,7 @@ nav a:hover {
   font-weight: bold;
 }
 
-.discord-link:hover {
+.discord a:hover {
   background: #3a1d10;
   color: #e6c87a;
 }
@@ -116,7 +116,6 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
   border-top: 1px solid #bfa76a;
   color: #cbb98a;
   font-size: 14px;
@@ -126,7 +125,7 @@ footer {
 
 <body>
 
-<header class="header">
+<header>
   <div class="logo-area">
     <img src="assets/logo2.png" alt="Topçu Ocağı Logo">
     <h1>Topçu Ocağı</h1>
@@ -139,53 +138,46 @@ footer {
   </nav>
 </header>
 
-<div class="container">
+<main>
 
-  <!-- AÇIKLAMA -->
-  <div class="card">
+  <div class="section">
     <h2>Topçu Ocağı</h2>
     <p>
-      Topçu Ocağı, Osmanlı Devleti’nin askerî kudretini temsil eden,
-      harp meydanlarında devletin iradesini toplar ile haykıran
-      köklü bir askerî teşkilattır.
+      Topçu Ocağı, Devlet-i Aliyye-i Osmaniyye’nin harp meydanlarında
+      ateş kudretini temsil eden en mühim askerî sınıflarından biridir.
+      Kale muhasaralarında ve meydan muharebelerinde ordunun kaderini tayin etmiştir.
       <br><br>
-      2026 – Devlet-i Aliyye-i Osmaniyye
+      <b>2026 – Devlet-i Aliyye-i Osmaniyye</b>
     </p>
   </div>
 
-  <!-- FERİK -->
-  <div class="card ferik-box">
-    <img src="assets/ferik.png" alt="Ferik">
+  <div class="section ferik">
+    <img src="assets/ferik.png" alt="Ferik exe32165">
     <div>
-      <h2>Ferik: exe32165</h2>
+      <h2>Ferik</h2>
       <p>
-        Topçu Ocağı’nın nizamını, disiplinini ve askerî tertibini
-        muhafaza eden yüksek rütbeli kumandan.
+        Ferik rütbesi, Topçu Ocağı’nda yüksek kumanda yetkisine sahip olup
+        sefer, tertip ve disiplin işlerinde ocağın nizamını muhafaza eder.
         <br><br>
-        Discord: <b>alfa4209</b>
+        <b>İsim:</b> exe32165<br>
+        <b>Discord:</b> alfa4209
       </p>
     </div>
   </div>
 
-  <img src="assets/logo2.png" alt="Topçu Ocağı Logo">
-
-  <img src="assets/ferik.png" alt="Ferik exe32165">
-
-
-  <!-- DISCORD -->
-  <div class="card" id="discord">
+  <div class="section discord" id="discord">
     <h2>Resmî Discord Sunucuları</h2>
 
-    <a class="discord-link" href="https://discord.gg/xRjQp4whFC" target="_blank">
+    <a href="https://discord.gg/xRjQp4whFC" target="_blank">
       ⚔️ Topçu Ocağı Discord
     </a>
 
-    <a class="discord-link" href="https://discord.gg/Fbhz6Tr64M" target="_blank">
+    <a href="https://discord.gg/Fbhz6Tr64M" target="_blank">
       🏛 Devlet-i Aliyye Discord
     </a>
   </div>
 
-</div>
+</main>
 
 <footer>
   © 2026 Devlet-i Aliyye-i Osmaniyye
